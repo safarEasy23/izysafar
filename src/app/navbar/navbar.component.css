@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffc107; /* Couleur de fond */
+    z-index: 1000; /* S'assurer que le menu reste au-dessus des autres éléments */
+  }
+  
+  .navbar a {
+    color: #000;
+    text-decoration: none;
+    padding: 15px 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #f1ad2e; /* Couleur de fond au survol */
+  }
+  
